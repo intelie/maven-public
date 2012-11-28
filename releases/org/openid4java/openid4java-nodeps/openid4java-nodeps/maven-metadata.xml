@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<metadata>
+  <groupId>org.openid4java</groupId>
+  <artifactId>openid4java-nodeps</artifactId>
+  <versioning>
+    <latest>0.9.5-patch</latest>
+    <release>0.9.5-patch</release>
+    <versions>
+      <version>0.9.5-patch</version>
+    </versions>
+    <lastUpdated>20100211014154</lastUpdated>
+  </versioning>
+</metadata>
