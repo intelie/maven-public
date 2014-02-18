@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.intelie.live</groupId>
+  <artifactId>live-plugins</artifactId>
+  <versioning>
+    <versions>
+      <version>1.0-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20140218142928</lastUpdated>
+  </versioning>
+</metadata>
