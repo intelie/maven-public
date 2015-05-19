@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata>
+  <groupId>net.intelie.pipes</groupId>
+  <artifactId>pipes-api</artifactId>
+  <versioning>
+    <versions>
+      <version>0.13-SNAPSHOT</version>
+    </versions>
+    <lastUpdated>20150519011455</lastUpdated>
+  </versioning>
+</metadata>
