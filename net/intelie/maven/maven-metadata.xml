@@ -2,9 +2,9 @@
 <metadata>
   <plugins>
     <plugin>
-      <name>Apache Maven Shade Plugin</name>
-      <prefix>shade</prefix>
-      <artifactId>maven-shade-plugin</artifactId>
+      <name>GitHub Site Maven Plugin</name>
+      <prefix>site</prefix>
+      <artifactId>site-maven-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
