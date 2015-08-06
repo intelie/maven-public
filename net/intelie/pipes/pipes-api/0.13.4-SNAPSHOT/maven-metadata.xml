@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<metadata modelVersion="1.1.0">
+  <groupId>net.intelie.pipes</groupId>
+  <artifactId>pipes-api</artifactId>
+  <version>0.13.4-SNAPSHOT</version>
+  <versioning>
+    <snapshot>
+      <timestamp>20150806.205748</timestamp>
+      <buildNumber>1</buildNumber>
+    </snapshot>
+    <lastUpdated>20150806205748</lastUpdated>
+    <snapshotVersions>
+      <snapshotVersion>
+        <extension>jar</extension>
+        <value>0.13.4-20150806.205748-1</value>
+        <updated>20150806205748</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <extension>pom</extension>
+        <value>0.13.4-20150806.205748-1</value>
+        <updated>20150806205748</updated>
+      </snapshotVersion>
+      <snapshotVersion>
+        <classifier>sources</classifier>
+        <extension>jar</extension>
+        <value>0.13.4-20150806.205748-1</value>
+        <updated>20150806205748</updated>
+      </snapshotVersion>
+    </snapshotVersions>
+  </versioning>
+</metadata>
