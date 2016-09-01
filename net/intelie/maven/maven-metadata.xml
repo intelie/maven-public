@@ -4,7 +4,7 @@
     <plugin>
       <name>Apache Maven Shade Plugin</name>
       <prefix>shade</prefix>
-      <artifactId>shade-maven-plugin</artifactId>
+      <artifactId>maven-shade-plugin</artifactId>
     </plugin>
   </plugins>
 </metadata>
