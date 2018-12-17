@@ -1,0 +1,4 @@
+#NOTE: This is a Maven Resolver internal implementation file, its format can be changed without prior notice.
+#Mon Dec 10 21:45:15 BRST 2018
+pljava.app-1.5.2-site.xml>=
+pljava.app-1.5.2.pom>=
