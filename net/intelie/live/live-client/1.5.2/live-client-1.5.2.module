@@ -1,0 +1,134 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.intelie.live",
+    "module": "live-client",
+    "version": "1.5.2",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0",
+      "buildId": "xzlg7dzotndkrofpjhwlbjuue4"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "live-client-1.5.2.jar",
+          "url": "live-client-1.5.2.jar",
+          "size": 14364,
+          "sha512": "a16140914b8fccce4100abe6887cc9bb8f27cf557e698265652b05b7a4994b12088bca7821525423d64845254bc1e4490510a79da22a8aa19433fdfb5e57a375",
+          "sha256": "7a7ab5ab97a929d2a28c5e2f8fa350637578f5cbc51dc45d37165a47b544aad1",
+          "sha1": "dff044deb9d2d0b384cd23f7cb9d41df33c3d239",
+          "md5": "59c28e61aab48ae14e2cd0245973670f"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.cometd.java",
+          "module": "bayeux-api",
+          "version": {
+            "requires": "4.0.7"
+          }
+        },
+        {
+          "group": "org.cometd.java",
+          "module": "cometd-java-client",
+          "version": {
+            "requires": "4.0.7"
+          }
+        },
+        {
+          "group": "org.cometd.java",
+          "module": "cometd-java-websocket-jetty-client",
+          "version": {
+            "requires": "4.0.7"
+          },
+          "excludes": [
+            {
+              "group": "org.eclipse.jetty.websocket",
+              "module": "websocket-client"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "javax-websocket-client-impl",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "websocket-api",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "live-client-1.5.2.jar",
+          "url": "live-client-1.5.2.jar",
+          "size": 14364,
+          "sha512": "a16140914b8fccce4100abe6887cc9bb8f27cf557e698265652b05b7a4994b12088bca7821525423d64845254bc1e4490510a79da22a8aa19433fdfb5e57a375",
+          "sha256": "7a7ab5ab97a929d2a28c5e2f8fa350637578f5cbc51dc45d37165a47b544aad1",
+          "sha1": "dff044deb9d2d0b384cd23f7cb9d41df33c3d239",
+          "md5": "59c28e61aab48ae14e2cd0245973670f"
+        }
+      ]
+    }
+  ]
+}
