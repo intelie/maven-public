@@ -1,0 +1,148 @@
+{
+  "formatVersion": "1.1",
+  "component": {
+    "group": "net.intelie.live",
+    "module": "live-client",
+    "version": "1.6.0",
+    "attributes": {
+      "org.gradle.status": "release"
+    }
+  },
+  "createdBy": {
+    "gradle": {
+      "version": "6.0.1",
+      "buildId": "x5lfptcoffaf5hmih3jkmdckwy"
+    }
+  },
+  "variants": [
+    {
+      "name": "apiElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-api"
+      },
+      "dependencies": [
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "net.intelie.live",
+          "module": "live-api",
+          "version": {
+            "requires": "2.25.17"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "live-client-1.6.0.jar",
+          "url": "live-client-1.6.0.jar",
+          "size": 19097,
+          "sha512": "62f404017ed0257b1e21762033fc52a176b51f4dddacc6285c2e9faf7e242923e1e2408a0763a718746e8c94b6f7adc02b9b9959fd404833420f9ea7ef3ef166",
+          "sha256": "fb928c7ee624e5e229d01518f9af9a2eb4f7f69eebad8ce5cd94efb71d50b779",
+          "sha1": "c6222dc2dd343eae6fcb96aa3bd1004daf41edc3",
+          "md5": "604b6b2df41dc324381d0a9acaf84939"
+        }
+      ]
+    },
+    {
+      "name": "runtimeElements",
+      "attributes": {
+        "org.gradle.category": "library",
+        "org.gradle.dependency.bundling": "external",
+        "org.gradle.jvm.version": 8,
+        "org.gradle.libraryelements": "jar",
+        "org.gradle.usage": "java-runtime"
+      },
+      "dependencies": [
+        {
+          "group": "org.cometd.java",
+          "module": "bayeux-api",
+          "version": {
+            "requires": "4.0.7"
+          }
+        },
+        {
+          "group": "org.cometd.java",
+          "module": "cometd-java-client",
+          "version": {
+            "requires": "4.0.7"
+          }
+        },
+        {
+          "group": "org.cometd.java",
+          "module": "cometd-java-websocket-jetty-client",
+          "version": {
+            "requires": "4.0.7"
+          },
+          "excludes": [
+            {
+              "group": "org.eclipse.jetty.websocket",
+              "module": "websocket-client"
+            }
+          ]
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "javax-websocket-client-impl",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty.websocket",
+          "module": "websocket-api",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "com.google.code.gson",
+          "module": "gson",
+          "version": {
+            "requires": "2.8.5"
+          }
+        },
+        {
+          "group": "org.eclipse.jetty",
+          "module": "jetty-client",
+          "version": {
+            "requires": "9.4.29.v20200521"
+          }
+        },
+        {
+          "group": "net.intelie.live",
+          "module": "live-api",
+          "version": {
+            "requires": "2.25.17"
+          }
+        },
+        {
+          "group": "org.slf4j",
+          "module": "slf4j-simple",
+          "version": {
+            "requires": "1.7.30"
+          }
+        }
+      ],
+      "files": [
+        {
+          "name": "live-client-1.6.0.jar",
+          "url": "live-client-1.6.0.jar",
+          "size": 19097,
+          "sha512": "62f404017ed0257b1e21762033fc52a176b51f4dddacc6285c2e9faf7e242923e1e2408a0763a718746e8c94b6f7adc02b9b9959fd404833420f9ea7ef3ef166",
+          "sha256": "fb928c7ee624e5e229d01518f9af9a2eb4f7f69eebad8ce5cd94efb71d50b779",
+          "sha1": "c6222dc2dd343eae6fcb96aa3bd1004daf41edc3",
+          "md5": "604b6b2df41dc324381d0a9acaf84939"
+        }
+      ]
+    }
+  ]
+}
